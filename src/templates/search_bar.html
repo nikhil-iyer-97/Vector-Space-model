@@ -1,0 +1,13 @@
+<form method="get" action="/search">
+	<div class="row row-top-space">
+		<div class="col-7">
+			<input class="form-control" id="query" name="query" placeholder="Your search query here" value="{{ query }}">
+		</div>
+		<div class="col-3">
+			<input type="number" class="form-control" id="size" name="size" placeholder="Number of listings" value="10">
+		</div>
+		<div class="col-2">
+			<button class="btn btn-primary btn-block" type="submit" id="search-button">Search</button>
+		</div>
+	</div>
+</form>
