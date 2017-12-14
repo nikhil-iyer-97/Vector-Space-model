@@ -10,10 +10,10 @@ documents for maximum accuracy.
 
 File structure:
 ---------------
-data folder – data that builds the model
-src/vectorspacemodel.py – The implementation of the vectorspace model
-src/stringprocessing.py – The various pre-processing functions using NLTK
-src/server.py – The file to run to start the program with the web-ui
+-data folder – data that builds the model
+-src/vectorspacemodel.py – The implementation of the vectorspace model
+-src/stringprocessing.py – The various pre-processing functions using NLTK
+-src/server.py – The file to run to start the program with the web-ui
 
 Usage:
 ------
